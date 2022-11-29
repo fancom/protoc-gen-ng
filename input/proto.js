@@ -111,7 +111,7 @@ var Proto = /** @class */ (function () {
         return null;
     };
     Proto.prototype.getGeneratedFileBaseName = function () {
-        return "".concat((0, utils_1.dasherize)(this.name.replace(/\.proto$/, '')), ".pb");
+        return "".concat((0, utils_1.decamelize)(this.name.replace(/\.proto$/, '')), ".pb");
     };
     return Proto;
 }());
