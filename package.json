@@ -3,7 +3,7 @@
   "description": "gRPC code generator for Angular",
   "author": "smnbbrv",
   "license": "MIT",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "main": "./main.js",
   "bin": {
     "protoc-gen-ng": "./main.js"
