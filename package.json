@@ -1,21 +1,28 @@
 {
-  "name": "@ngx-grpc/protoc-gen-ng",
+  "name": "@fancom/protoc-gen-ng",
   "description": "gRPC code generator for Angular",
   "author": "smnbbrv",
   "license": "MIT",
   "main": "./main.js",
   "version": "3.1.3",
   "bin": {
-    "protoc-gen-ng": "./main.js"
+    "protoc-gen-ng": "main.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ngx-grpc/ngx-grpc"
+    "url": "git+https://github.com/ngx-grpc/ngx-grpc.git"
   },
   "dependencies": {
     "google-protobuf": "^3.15.8",
     "prettier": "1.19.1",
     "winston": "^3.2.1",
     "tslib": "2.4.1"
+  },
+  "bugs": {
+    "url": "https://github.com/ngx-grpc/ngx-grpc/issues"
+  },
+  "homepage": "https://github.com/ngx-grpc/ngx-grpc#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
